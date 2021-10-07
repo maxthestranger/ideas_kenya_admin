@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Softnio" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Ideas kenya Admin" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>Admin | Ideas Kenya</title>
+    <link rel="stylesheet" href="assets/css/admin.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+  </head>
+  <body class="nk-body bg-lighter npc-general has-sidebar ui-bordered">
+    <div class="nk-app-root">
+      <div class="nk-main">
+        <div
+          class="nk-sidebar nk-sidebar-fixed is-light"
+          data-content="sidebarMenu"
+        >
+          <div class="nk-sidebar-element nk-sidebar-head">
+            <div class="nk-sidebar-brand">
+              <a href="index.html" class="logo-link nk-sidebar-logo">
+                <h5>Ideas Kenya</h5>
+              </a>
+            </div>
+            <div class="nk-menu-trigger mr-n2">
+              <a
+                href="#"
+                class="nk-nav-toggle nk-quick-nav-icon d-xl-none"
+                data-target="sidebarMenu"
+                ><em class="icon ni ni-arrow-left"></em></a
+              ><a
+                href="#"
+                class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+                data-target="sidebarMenu"
+                ><em class="icon ni ni-menu"></em
+              ></a>
+            </div>
+          </div>
+          <div class="nk-sidebar-element">
+            <div class="nk-sidebar-content">
+              <div class="nk-sidebar-menu" data-simplebar>
+                <ul class="nk-menu">
+                  <li class="nk-menu-item">
+                    <a href="index.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-dashboard"></em></span
+                      ><span class="nk-menu-text">Dashboard</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-heading">
+                    <h6 class="overline-title text-primary-alt">Startups</h6>
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="startup_active.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-activity"></em></span
+                      ><span class="nk-menu-text">Active</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="startup_pending.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-loader"></em></span
+                      ><span class="nk-menu-text">Pending</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="startup_declined.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-delete"></em></span
+                      ><span class="nk-menu-text">Declined</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-heading">
+                    <h6 class="overline-title text-primary-alt">Investors</h6>
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="investor_active.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-activity"></em></span
+                      ><span class="nk-menu-text">Active</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="investor_pending.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-loader"></em></span
+                      ><span class="nk-menu-text">Pending</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-item active">
+                    <a href="investor_declined.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-delete"></em></span
+                      ><span class="nk-menu-text">Declined</span></a
+                    >
+                  </li>
+                  <li class="nk-menu-heading">
+                    <h6 class="overline-title text-primary-alt">Inquiries</h6>
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="inquiries.html" class="nk-menu-link"
+                      ><span class="nk-menu-icon"
+                        ><em class="icon ni ni-chat"></em></span
+                      ><span class="nk-menu-text">Inquiries</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nk-wrap">
+          <div class="nk-header nk-header-fixed is-light">
+            <div class="container-fluid">
+              <div class="nk-header-wrap">
+                <div class="nk-menu-trigger d-xl-none ml-n1">
+                  <a
+                    href="#"
+                    class="nk-nav-toggle nk-quick-nav-icon"
+                    data-target="sidebarMenu"
+                    ><em class="icon ni ni-menu"></em
+                  ></a>
+                </div>
+                <div class="nk-header-brand d-xl-none">
+                  <a href="index.html" class="logo-link"
+                    ><img
+                      class="logo-light logo-img"
+                      src="images/logo.png"
+                      srcset="images/logo2x.png 2x"
+                      alt="logo" /><img
+                      class="logo-dark logo-img"
+                      src="images/logo-dark.png"
+                      srcset="images/logo-dark2x.png 2x"
+                      alt="logo-dark"
+                  /></a>
+                </div>
+                <div class="nk-header-tools">
+                  <ul class="nk-quick-nav">
+                    <li class="dropdown chats-dropdown hide-mb-xs">
+                      <a
+                        href="#"
+                        class="dropdown-toggle nk-quick-nav-icon"
+                        data-toggle="dropdown"
+                        ><div class="icon-status icon-status-na">
+                          <em class="icon ni ni-comments"></em></div
+                      ></a>
+                    </li>
+                    <li class="dropdown user-dropdown">
+                      <a
+                        href="#"
+                        class="dropdown-toggle mr-n1"
+                        data-toggle="dropdown"
+                        ><div class="user-toggle">
+                          <div class="user-avatar sm">
+                            <em class="icon ni ni-user-alt"></em>
+                          </div>
+                          <div class="user-info d-none d-xl-block">
+                            <div class="user-status user-status-active">
+                              Administator
+                            </div>
+                            <div class="user-name dropdown-indicator">
+                              Ideas Kenya Amdin
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                      <div
+                        class="
+                          dropdown-menu dropdown-menu-md dropdown-menu-right
+                        "
+                      >
+                        <div
+                          class="
+                            dropdown-inner
+                            user-card-wrap
+                            bg-lighter
+                            d-none d-md-block
+                          "
+                        >
+                          <div class="user-card">
+                            <div class="user-avatar"><span>IK</span></div>
+                            <div class="user-info">
+                              <span class="lead-text">Ideas Kenya Admin</span
+                              ><span class="sub-text"
+                                >admin@ideaskenya.com</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dropdown-inner">
+                          <ul class="link-list">
+                            <li>
+                              <a href="#"
+                                ><em class="icon ni ni-signout"></em
+                                ><span>Sign out</span></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nk-content">
+            <div class="container-fluid">
+              <div class="nk-content-inner">
+                <div class="nk-content-body">
+                  <div class="nk-block-head nk-block-head-sm">
+                    <div class="nk-block-between">
+                      <div class="nk-block-head-content">
+                        <h4 class="nk-block-title page-title">
+                          Declined Investors
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nk-block">
+                    <div class="row g-gs">
+                      <div class="nk-tb-list is-separate is-medium mb-3">
+                        <div class="nk-tb-item nk-tb-head">
+                          <div class="nk-tb-col nk-tb-col-check">
+                            <div
+                              class="
+                                custom-control custom-control-sm custom-checkbox
+                                notext
+                              "
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input"
+                                id="oid"
+                              /><label
+                                class="custom-control-label"
+                                for="oid"
+                              ></label>
+                            </div>
+                          </div>
+                          <div class="nk-tb-col"><span>Investor Id</span></div>
+                          <div class="nk-tb-col tb-col-md">
+                            <span>Investor Name</span>
+                          </div>
+                          <div class="nk-tb-col">
+                            <span class="d-none d-mb-block">Contact Email</span>
+                          </div>
+                          <div class="nk-tb-col tb-col-sm">
+                            <span>Investor Type</span>
+                          </div>
+                          <div class="nk-tb-col tb-col-sm">
+                            <span>Investor Title</span>
+                          </div>
+                          <div class="nk-tb-col tb-col-md">
+                            <span>Application Date</span>
+                          </div>
+                          <div class="nk-tb-col"><span>Action</span></div>
+                        </div>
+                        <div class="nk-tb-item">
+                          <div class="nk-tb-col nk-tb-col-check">
+                            <div
+                              class="
+                                custom-control custom-control-sm custom-checkbox
+                                notext
+                              "
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input"
+                                id="oid01"
+                              /><label
+                                class="custom-control-label"
+                                for="oid01"
+                              ></label>
+                            </div>
+                          </div>
+                          <div class="nk-tb-col">
+                            <span class="tb-lead"><a href="#">#95954</a></span>
+                          </div>
+                          <div class="nk-tb-col tb-col-md">
+                            <span class="tb-sub">James Bide</span>
+                          </div>
+                          <div class="nk-tb-col tb-col-sm">
+                            <span class="tb-sub">waridiavenue@gmail.com</span>
+                          </div>
+                          <div class="nk-tb-col tb-col-md">
+                            <span class="tb-sub text-primary"
+                              >Angel Investor</span
+                            >
+                          </div>
+                          <div class="nk-tb-col tb-col-md">
+                            <span class="tb-sub text-primary">CEO</span>
+                          </div>
+                          <div class="nk-tb-col">
+                            <span class="tb-lead">Jun 4, 2020</span>
+                          </div>
+                          <div class="nk-tb-col nk-tb-col-tools">
+                            <a
+                              href="#"
+                              class="btn btn-icon btn-trigger btn-tooltip"
+                              ><em class="icon ni ni-eye"></em
+                            ></a>
+                            <a
+                              href="#"
+                              class="btn btn-icon btn-trigger btn-tooltip"
+                              ><em class="icon ni ni-edit-alt"></em
+                            ></a>
+                            <a
+                              href="#"
+                              class="btn btn-icon btn-trigger btn-tooltip"
+                              ><em class="icon ni ni-trash"></em
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nk-footer">
+            <div class="container-fluid">
+              <div class="nk-footer-wrap justify-content-center">
+                <div class="nk-footer-copyright">
+                  &copy; 2021 Ideas Kenya. All rights Reserved
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="assets/js/bundle.js"></script> -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
